@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Tables</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <form action="submitform.php" method="get">
+
+            <!-- input type text -->
+            <label for="firstName">Enter first Name : </label>
+            <input type="text"><br><br>
+            <label for="lastName">Enter Last Name :</label>
+            <input type="text">
+
+            <!-- type email -->
+            <br>
+            <label for="email">Enter Email</label>
+            <input type="email">
+            <br>
+
+            <!-- input type radio -->
+            <p>Choose your favorite Web language:</p>
+
+            <input type="radio" value="HTML">
+            <label for="html">DHTML</label><br>
+            <input type="radio" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <br>
+
+            <!-- type checkbox -->
+            <input type="checkbox" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+
+            <button type="button">Submit</button>
+        </form>
+    </body>
+</html>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact me</title>
+    <title>Tables & Contact form</title>
 </head>
 
 <body>
@@ -18,14 +18,18 @@
     <hr>
 
     <h1><b>About</b></h1>
-    <form action="" method="get">
-        <label for="Name">Enter Name:</label>
-        <input type="text"> <br><br>
-        <label for="Short Introduction">Give short introduction:</label>
-        <input type="text"> <br><br>
-        <label for="Skills & Technologies">Skills & Technologies:</label>
-        <input type="text"> <br><br>
-    </form>
+
+    <h1>Name:</h1>
+    <p>Atharv Valsangkar</p>
+
+    <h1>Short Introduction:</h1>
+    <p>I am a web developer passionate about creating clean, responsive, and user-friendly websites and web
+        applications.</p>
+
+    <h1>Skills & Technologies:</h1>
+    <p>HTML5, CSS3, JavaScript, React, Node.js</p>
+
+
 
 
     <hr>
@@ -67,18 +71,27 @@
     </table>
     <hr>
     <h3><b>Contact me</b></h3>
-   
-    <label for="Name">Enter your name:</label>
-    <input type="text"><br><br>
+    <form action="" method="post">
 
-    <label for="email">Enter your email:</label>
-    <input type="email"><br><br>
+        <label for="Name">Enter your name:</label>
+        <input type="text"><br><br>
 
-    <label for="Password">Enter your password:</label>
-    <input type="password"><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email"><br><br>
 
-    <label for="Message">Enter message:</label>
-    <input type="text"><br><br>
-    <button type="Button">Submit</button>
+        <p>Please select Gender</p>
+        <input type="radio" name="gender" value="Male">
+        <label for="Male">Male</label>
+
+        <input type="radio" name="gender" value="Female">
+        <label for="Female">Female</label><br><br>
+
+        <label for="Password">Enter your password:</label>
+        <input type="password"><br><br>
+
+        <label for="Message">Enter message:</label>
+        <input type="text"><br><br>
+        <button type="Button">Submit</button>
+    </form>
 </body>
 </html>

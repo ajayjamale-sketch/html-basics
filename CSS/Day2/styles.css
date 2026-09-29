@@ -1,0 +1,92 @@
+h1{
+    color: chocolate;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+    text-align: center;
+}
+
+#aboutcafe{
+    color: red;
+    font-style: italic;
+}
+#location{
+    color: rgb(0, 255, 179);
+    font-style: oblique;
+}
+
+h3{
+    color: brown;
+    font-style: inherit;
+}
+
+#about{
+    color: brown;
+}
+.footer{
+    color: white;
+    background-color: gray;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#openinghours{
+    color: rgb(255, 0, 0);
+    font-style: italic;
+}
+h3{
+    color: blueviolet;
+    font-style:italic;
+    font-weight: 100;
+}
+
+#coffee{
+    color: cadetblue;
+    font-style: oblique;
+    font-weight: 200;
+    font-display: block;
+}
+#espresso{
+    color: coral;
+    font-style: italic;
+
+}
+#cap{
+    color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#latte{
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#offer{
+    color: darkcyan;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: snow;
+}
+#fuel-up{
+    color: darkgoldenrod;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tea{
+    color: violet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact{
+    color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: bisque;
+}
+.contacts{
+background-color: whitesmoke;
+}
+#id{
+    background-color: skyblue;
+}
+.header{
+    background-color: skyblue;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: #111;
+    color: white;
+}
+
+.block {
+
+    /* position static */
+    /* position: static; */
+    /* height: 100px; 
+    width: 200px;  */
+    /* background-color: crimson; */
+    /* top: 40px;
+    left: 40px;
+    right: 40px;            // no effect in the static position
+    bottom: 40px; */
+
+    /* inset: 20px ; */
+
+
+    /* position relative */
+    /* position: relative; */
+
+    /* top and left are dominant in case of other properties */
+   /* top: 40px;           
+    left: 40px;
+    right: 40px;          
+    bottom: 40px;  */
+
+     /* inset: 20px 40px ;    short habd for the top left right bottom */
+
+     /* position: absolute ; */
+
+     /* make the div enable to position anywhere in the page  */
+
+     /* top: 40px; */
+     /* left: 40px; */
+     /* right: 40px; */
+     /* bottom: 40px; */
+
+     /* padding: 80px; */
+
+
+
+     /* position fixed make the div at the fixed position */
+     /* position: fixed;
+     height: 100px;
+     width: 200px;
+     top: 0;
+     right: 0;
+     left: 0; */
+     /* bottom: auto; */
+
+/* 
+    position: sticky;
+    height: 100px;
+    width: 200px;
+    color: crimson;
+    top: 0;
+    bottom: 0;
+      */
+
+
+}
+
+.parent {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    background-color: grey;
+    z-index: 2;
+}
+
+.block1{
+    position: fixed;
+    background-color: crimson;
+    height: 200px;
+    width: 200px;
+    top: 0;
+    z-index: 1;
+}

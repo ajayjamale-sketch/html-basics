@@ -1,36 +1,39 @@
 body {
-    background-color: #f4f7fc;
+    background-color: whitesmoke;
 }
 
 .header {
-    background-color: white;
-    color: white;
-    padding: 20px 7%;
+    
+    color:  #c26767;
+    padding: 8px 7%;
     text-align: center;
     position: sticky;
+    
 }
 
 .header-container {
-    position: fixed;
+    position: sticky;
     width: 100%;
-    z-index: 1;
+    z-index: 1000;
     top: 0;
+    background-color: #2f3950;
 }
 
-.name {
-    color: #fca311;
-    margin-bottom: 15px;
-    font-size: 30px;
-}
+
+
 
 .navigation {
     position: sticky;
-    z-index: 100;
+    z-index: 1000;
     display: flex;
     justify-content: center;
     padding: 12px;
     text-decoration: none;
     gap: 30px;
+    top: 0;
+    scroll-margin-top: 70px;
+    min-height: 40px;
+    
 
 }
 
@@ -40,7 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 60px;
-    background-color: white;
+    background-color: rgb(118, 184, 156);
 }
 
 .hero-content {
@@ -73,6 +76,8 @@ body {
     border-radius: 15px;
     box-shadow: 0 5px 20px;
     min-width: 220px;
+    z-index: 1;
+
 }
 
 .profile img {
@@ -80,6 +85,7 @@ body {
     height: 230px;
     object-fit: cover;
     border-radius: 10px;
+    display: block;
 }
 
 .profile p {
@@ -101,8 +107,12 @@ body {
 
 .about-card {
     background-color: white;
-    padding: 60px;
+    padding: 80px 5%;
     border-radius: 10px;
+    min-height: 10vh;
+    justify-content: center;
+
+
 
 }
 
@@ -127,7 +137,9 @@ body {
     justify-content: center;
 
 }
-
+.title-project h2{
+    padding-top: 35px;
+}
 .project-card {
     position: relative;
     background-color: white;

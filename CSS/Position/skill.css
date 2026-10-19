@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 3%;
+    background-color: white;
+    border-radius: 12px;
+    position: fixed;
+    top: 0;
+    left: 20px;
+    z-index: 1000;
+    width: 100%;
+}
+
+.name {
+color: #fabb96;
+font-size: 35px;
+margin: 0;
+font-weight: bold;
+}
+
+
+.navigation {
+display: flex;
+align-items: center;
+gap: 18px;
+}
+
+.navigation a{
+    color: rgb(103, 163, 204);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px;
+    position: relative;
+}
+.skill-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.title{
+    margin-top: 20px;
+}
+
+.skill-card {
+    background-color: #5b72a5;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+    margin-top: 50px;
+}

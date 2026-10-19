@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: cadetblue;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+
+}
+.page{
+    min-height: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 40px 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.product-card{
+    min-height: 400px;
+    width: 400px;
+    background-color:aliceblue;
+     border: 1px;
+     border-radius: 20px;
+     padding: 20px;
+     object-fit: contain;
+}
+.image-box{
+     width: 50%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+     object-fit: contain;
+
+}
+.category{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+    font-style: normal;
+    color: black;
+    padding: 40px 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+.product-name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+     padding: 40px 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+
+}
+.description{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+.link{
+     padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+
+}
+
+.rating{
+    padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+.buyer{
+    font-weight: bold;
+    padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+.price{
+    font-weight: bold;
+     padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+
+}
+.taxex{
+    padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.emi{
+    padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.btn{
+     padding: 40px 20px; 
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+}
+.amazon-btn add to cart{
+    background-color: yellow;
+}
+.amazon-btn buy now{
+    background-color: orange;
+}
